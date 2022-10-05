@@ -5,6 +5,7 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
     clang \
     cmake \
     gdb \
-    wget
+    wget \
+    utils
 RUN g++ main.cpp -o hello
 ENTRYPOINT ["./hello"]
