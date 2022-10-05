@@ -15,5 +15,5 @@ jobs:
           username: programmable-keymasher
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: axelvanherle/iot-taak-2/hallo
+          repository: programmable-keymasher/iot-taak-2/hallo
           tag_with_sha: true
